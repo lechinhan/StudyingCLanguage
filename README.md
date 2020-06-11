@@ -1,19 +1,21 @@
 # STUDYING C LANGUAGE AT HOME
+
+Cúng tổ ngành HelloWorld cái rồi tính gì tính
 - [Hello World](./Hello.c)
 
-***Some simple games with C language:***
+**Simple Games**
 - [Simple 2048 Game](./2048_game.c)
 - [Simple Snake Game](./snake_game.c)
 - [Simple Mine Game](./mine_Game.c)
 
-**Some types of sorting algorithms:**
+**Sorting Algorithms:**
 - [qsort](./qsort.c)
 - [Interchange Sort](./interChangeSort.c)
 - [Merge Sort](./mergeSort.c)
 - [Bubble Sort](./bubbleSort.c)
 
 
-**Some other programs:**
+**Other**
 - [Program Change Password](./program_Change_Password.c)
 - [Check Prime Number](./isPrime.c)
 - [Find LCM - GCD](./LCM_GCD.c)
