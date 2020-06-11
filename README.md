@@ -1,13 +1,17 @@
 # STUDYING C LANGUAGE AT HOME
-- [Hello World](./Hello.c) \n
+- [Hello World](./Hello.c)
+
 Some simple games with C language:
 - [Simple 2048 Game](./2048_game.c)
 - [Simple Snake Game](./snake_game.c)
 - [Simple Mine Game](./mine_Game.c)
+
 Some types of sorting algorithms:
 - [qsort](./qsort.c)
 - [Interchange Sort](./interChangeSort.c)
 - [Merge Sort](./mergeSort.c)
+
+
 Some other programs:
 - [Program Change Password](./program_Change_Password.c)
 - [Check Prime Number](./isPrime.c)
