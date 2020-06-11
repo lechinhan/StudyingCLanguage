@@ -1,5 +1,5 @@
 # STUDYING C LANGUAGE AT HOME
-- [Hello World](./Hello.c)
+- [Hello World](./Hello.c) \n
 Some simple games with C language:
 - [Simple 2048 Game](./2048_game.c)
 - [Simple Snake Game](./snake_game.c)
