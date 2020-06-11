@@ -1,9 +1,9 @@
 # STUDYING C LANGUAGE AT HOME
 
-Cúng tổ ngành HelloWorld cái rồi tính gì tính
+Cúng tổ ngành HelloWorld cái rồi tính gì tính :))
 - [Hello World](./Hello.c)
 
-**Simple Games**
+**Simple Games:**
 - [Simple 2048 Game](./2048_game.c)
 - [Simple Snake Game](./snake_game.c)
 - [Simple Mine Game](./mine_Game.c)
@@ -15,7 +15,7 @@ Cúng tổ ngành HelloWorld cái rồi tính gì tính
 - [Bubble Sort](./bubbleSort.c)
 
 
-**Other**
+**Other:**
 - [Program Change Password](./program_Change_Password.c)
 - [Check Prime Number](./isPrime.c)
 - [Find LCM - GCD](./LCM_GCD.c)
