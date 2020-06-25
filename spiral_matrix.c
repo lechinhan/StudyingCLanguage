@@ -4,7 +4,7 @@
 */
 #include <stdio.h>
 
-#define SIZE 10
+#define SIZE 7
 int mat[SIZE][SIZE];
 
 void spiral(void);
@@ -20,28 +20,26 @@ void spiral(void) {
     int col = SIZE - 1;
     int value = SIZE * SIZE;
     int c = 0; // The var c use for shrinking the area of the matrix
-    while (c < SIZE / 2) {
+    while (c <= SIZE / 2) {
         // Set the top row's value
-        for (int i = c; i < col - c; i++) {
+        for (int i = c; i <= col; i++) {
             mat[c][i] = value--;
         }
         // Set the right column's value
-        for (int i = c; i < row - c; i++) {
-            mat[i][col - c] = value--;
+        for (int i = c + 1; i <= row ; i++) {
+            mat[i][col] = value--;
         }
         // Set the bottom row's value
-        for (int i = col - c; i > c; i--) {
-            mat[row - c][i] = value--;
+        for (int i = col - 1; i >= c; i--) {
+            mat[row][i] = value--;
         }
         // Set the left column's value
-        for (int i = row - c; i > c; i--) {
+        for (int i = row - 1; i > c; i--) {
             mat[i][c] = value--;
         }
         c++;
-        if (SIZE % 2 != 0) {
-            // For the center point
-            mat[SIZE / 2][SIZE / 2] = value;
-        }
+        row--;
+        col--;
     }
 }
 void display(void) {
