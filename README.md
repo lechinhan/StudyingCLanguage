@@ -16,6 +16,7 @@ Cúng tổ ngành HelloWorld cái rồi tính gì tính :))
 
 
 **Other:**
+- [Spiral Matrix Outside In](./spiral_matrix.c)
 - [Program Change Password](./program_Change_Password.c)
 - [Check Prime Number](./isPrime.c)
 - [Find LCM - GCD](./LCM_GCD.c)
